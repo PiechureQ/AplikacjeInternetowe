@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body
+{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background: lightblue;
+    min-height: 17vh;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+	background: lightcoral;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+header>h1 {
+    font-size: 120px;
+    text-align: center;
+}
+
+nav {
+	border: 3px solid blue;
+	display: inline-block;
+	width: 100%;
+	min-height: 25px;
+	text-align: center;
+}
+
+nav>ul {
+	position: relative;
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav>ul li {
+    display: inline;
+}
+
+.menu {
+    margin: 0 20px;
+	padding: 10px;
+	background-color: lightgrey;
+    display: inline-block;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu a:hover {
+	color: red;
+}
+article {
+    width: 61vw;
+    padding-left: 12px;
+    float: left;
+    padding: 20px 15px;
+}
+section {
+  padding: 10px 0;
+}
+section h3 {
+  padding: 0 0 10px 0;
+}
+.genre-desc {
+  padding: 10px;
+}
+.genre-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.event-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.event-desc {
+  padding: 10px;
+}
+
+img {
+	width: 100%;
+}
+aside {
+    background: lightblue;
+    width: 38vw;
+    padding: 12px;
+    font-size: 18px;
+    float: right;
+	height: 141vh;
+}
+
+aside > table {
+	border: 1px blue solid;
+}
+
+ul {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+ol {
+    margin-left: 40px;
+}
+
+aside>p {
+    margin-bottom: 20px;
+}
+
+aside>table {
+    width: 100%;
+    text-align: center;
+}
