@@ -1,0 +1,64 @@
+* {
+    font-family: Calibri;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 480px;
+    background-color: lightblue;
+}
+
+header, footer {
+    background-color: darkgrey;
+    color: pink;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-style: oblique;
+    margin: 0;
+    padding: 12px 6px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+article > p:first-of-type {;
+    text-indent: 1.5em;
+    margin: 0;
+    text-align: justify;
+    padding: 6px;
+}
+
+img {
+    height: 240px;
+    margin: 6px;
+    float: right;
+}
+
+#wejscie {
+    background-color: darkblue;
+    color: white;
+    opacity: 0.5;
+    padding: 6px;
+    position: fixed;
+    width: 180px;
+    right: 0;
+    bottom: 0;
+}
+
+menu {
+    background-color: peru;
+    text-align: center;
+}
+
+menu .menu span{
+    background-color: yellow;
+    width: 120px;
+    text-align: center;
+    margin: 12px;
+    padding: 12px;
+}
